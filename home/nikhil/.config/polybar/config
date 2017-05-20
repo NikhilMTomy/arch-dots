@@ -9,9 +9,7 @@
 
 [colors]
 background = ${xrdb:color0:#222}
-;background = #222
 background-alt = #444
-;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #181818
 primary = #ffb52a
@@ -21,15 +19,10 @@ workspace-focused-background = #1d1d1d
 workspace-focused-underline = #50fa7b
 
 [bar/nikhil]
-;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 20
-;offset-x = 1%
-;offset-y = 1%
-;radius = 6.0
 fixed-center = false
 
-;background = ${colors.background}
 background = #001d1d1d
 foreground = ${colors.foreground}
 
@@ -51,9 +44,7 @@ font-2 = siji:pixelsize=10;1
 font-3 = FontAwesome:size=10
 
 modules-left = i3
-;modules-center = mpd
 modules-center = xwindow
-;modules-right = filesystem xbacklight volume xkeyboard memory cpu battery temperature date powermenu
 modules-right = filesystem volume memory cpu temperature date eth powermenu
 
 tray-position = right
@@ -62,8 +53,6 @@ tray-transparent = true
 tray-background = #0063ff
 
 wm-restack = i3
-
-;override-redirect = true
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
@@ -86,7 +75,6 @@ label-unmounted-foreground = ${colors.foreground-alt}
 type = internal/bspwm
 
 label-focused = %index%
-;label-focused-background = ${colors.background-alt}
 label-focused-background = #00000000
 label-focused-underline= ${colors.primary}
 label-focused-padding = 1
@@ -108,37 +96,23 @@ format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
 
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
-
 label-mode-padding = 1
 label-mode-foreground = #000
-;label-mode-background = ${colors.primary}
 label-mode-background = #00000000
 
-; focused = Active workspace on focused monitor
-;label-focused = %index%
 label-focused = %name%
-;label-focused-background = ${module/bspwm.label-focused-background}
-;label-focused-background = ${colors.workspace-focused-background}
 label-focused-background = #00ffffff
 label-focused-underline = ${colors.workspace-focused-underline}
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
-; unfocused = Inactive workspace on any monitor
-;label-unfocused = %index%
 label-unfocused = %name%
 label-unfocused-padding = ${module/bspwm.label-occupied-padding}
 
-; visible = Active workspace on unfocused monitor
-;label-visible = %index%
 label-visible = %name%
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
-; urgent = Workspace with urgency hint set
-;label-urgent = %index%
 label-urgent = %name%
 label-urgent-background = ${module/bspwm.label-urgent-background}
 label-urgent-padding = ${module/bspwm.label-urgent-padding}
@@ -169,10 +143,6 @@ format-connected-underline = #9f78e1
 label-connected = %essid%
 
 format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
 
 ramp-signal-0 = 
 ramp-signal-1 = 
@@ -192,10 +162,6 @@ format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
 format-disconnected = 
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
 
 [module/date]
 type = internal/date
@@ -217,7 +183,6 @@ label =  %date% %time%
 type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
-;label-volume = VOL
 label-volume = %percentage%
 label-volume-foreground = ${root.foreground}
 
@@ -248,7 +213,6 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-;format-underline = #f50a4d
 format-underline = #ff5555
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
@@ -291,13 +255,7 @@ menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
 
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
-; vim:ft=dosini
