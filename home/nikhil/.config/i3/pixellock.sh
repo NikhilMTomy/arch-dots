@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-icon="$HOME/Pictures/lock.png"
-tmpbg='/tmp/screen.png'
-
-(( $# )) && { icon=$1; }
-
-scrot "$tmpbg"
-convert "$tmpbg" -scale 10% -scale 1000% "$tmpbg"
-convert "$tmpbg" "$icon" -gravity center -composite -matte "$tmpbg"
-i3lock -u -i "$tmpbg"
+IMAGE='/tmp/screen.png'
+scrot "$IMAGE"
+convert "$IMAGE" -scale 10% -scale 1000% "$IMAGE"
+/home/nikhil/.config/i3/i3lock -i $IMAGE -c '#000000' -o '#00ff00' -w '#ff0000' -l '#000000' -e

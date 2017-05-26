@@ -16,7 +16,6 @@
 /home/nikhil/Music/Coldplay/Coldplay-TheScientiest.mp3
 /home/nikhil/Music/Coldplay/Coldplay-Clocks.mp3
 /home/nikhil/Music/Coldplay/Coldplay-FixYou.mp3
-/home/nikhil/Music/Tiësto/Tiësto-BeautifulThings.mp3
 /home/nikhil/Music/Eminem/Eminem-Beautiful.mp3
 /home/nikhil/Music/Eminem/Eminem-GutsOverFearft.Sia.mp3
 /home/nikhil/Music/Eminem/Eminem-LoseYourself.mp3
