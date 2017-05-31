@@ -1,3 +1,5 @@
+/home/nikhil/Music/ExplosionsInTheSky/ExplosionsInTheSky-YourHandInMine.mp3
+/home/nikhil/Music/Pixies/Pixies-WhereIsMyMind.mp3
 /home/nikhil/Music/ArcticMonkeys/ArcticMonkeys-DoIWannaKnow.mp3
 /home/nikhil/Music/ArcticMonkeys/ArcticMonkeys-OneForTheRoad.mp3
 /home/nikhil/Music/ArcticMonkeys/ArcticMonkeys-Arabella.mp3
@@ -16,6 +18,7 @@
 /home/nikhil/Music/Coldplay/Coldplay-TheScientiest.mp3
 /home/nikhil/Music/Coldplay/Coldplay-Clocks.mp3
 /home/nikhil/Music/Coldplay/Coldplay-FixYou.mp3
+/home/nikhil/Music/Tiësto/Tiësto-BeautifulThings.mp3
 /home/nikhil/Music/Eminem/Eminem-Beautiful.mp3
 /home/nikhil/Music/Eminem/Eminem-GutsOverFearft.Sia.mp3
 /home/nikhil/Music/Eminem/Eminem-LoseYourself.mp3

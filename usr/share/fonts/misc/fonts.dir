@@ -1,4 +1,4 @@
-409
+410
 10x20-ISO8859-1.pcf.gz -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-1
 10x20-ISO8859-10.pcf.gz -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-10
 10x20-ISO8859-11.pcf.gz -misc-fixed-medium-r-normal--20-200-75-75-c-100-iso8859-11
@@ -408,3 +408,4 @@ olgl10.pcf.gz -sun-open look glyph-----10-100-75-75-p-101-sunolglyph-1
 olgl12.pcf.gz -sun-open look glyph-----12-120-75-75-p-113-sunolglyph-1
 olgl14.pcf.gz -sun-open look glyph-----14-140-75-75-p-128-sunolglyph-1
 olgl19.pcf.gz -sun-open look glyph-----19-190-75-75-p-154-sunolglyph-1
+siji.pcf -wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1
