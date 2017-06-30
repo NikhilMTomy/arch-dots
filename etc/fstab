@@ -1,0 +1,9 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# UUID=c658aeff-dadb-433f-9fac-8744e533fcf5
+/dev/sda2    /               ext4    rw,relatime,data=ordered            0 1
+/dev/sda3    /mnt/nikhil     ntfs    user,rw,async,auto,suid,dev,exec    0 0
+/dev/sda5    /mnt/movies2    ext4    user,rw,async,auto,suid,dev,exec    0 0
+/dev/sda6    /mnt/movies     ext4    user,rw,async,auto,suid,dev,exec    0 0
